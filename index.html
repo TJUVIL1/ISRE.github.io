@@ -330,50 +330,6 @@
   </div>
 </section>
 
-<!-- Paper abstract -->
-<!-- <section class="section hero is-light">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text-justified">
-          <!-- TODO: Replace with your paper abstract -->
-          <p>
-            While image super-resolution methods have made significant progress under normal lighting conditions, their performance severely degrades in ultra-dark environments. To address this, we propose the Ultra-Dark and Low Resolution image Enhancement network (ISRE), an integrated and lightweight framework. Specifically, we design a Differentiable Implicit Parameter Prediction (DIPP) module. Operating as a plug and play component, DIPP achieves spatially adaptive brightness enhancement through pixel-wise implicit features and dynamic coefficients. To tackle the severe loss of details, we introduce a Frequency space Super-Resolution Reconstruction (FSRR) module. It employs the fast fourier transform to decouple images into high and low frequency components, applying dedicated enhancement blocks to independently reconstruct structural details. Furthermore, to bridge the semantic gap between representations, we present a Dual Domain Joint Attention (DDJA) mechanism that links spatial channel features with frequency spectral features. This establishes a smooth bidirectional information flow, maximizing feature utilization efficiency. Extensive experiments demonstrate that ISRE outperforms state of the art algorithms by 8.7% in PSNR and 6.7% in SSIM, while requiring approximately 52 times fewer parameters.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section> -->
-<!-- End paper abstract -->
-
-<!-- Model Architecture -->
-<!-- <section class="section">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-five-fifths">
-        <h2 class="title is-3">Model Architecture</h2>
-        <div class="content has-text-justified">
-          <!-- TODO: Replace the src path with your actual framework image file path -->
-          <div class="has-text-centered">
-            <img src="./static/images/main4_01.png" alt="ISRE Model Architecture" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08);">
-          </div>
-          <br>
-          <!-- TODO: Adjust the explanation text according to your actual layout -->
-          <p>
-            An overview of the proposed <strong>ISRE</strong> framework. It consists of three primary components: 
-            (1) The <strong>Differentiable Implicit Parameter Prediction (DIPP)</strong> module, which adaptively enhances pixel-wise illumination via implicit features and dynamic coefficients. 
-            (2) The <strong>Frequency space Super-Resolution Reconstruction (FSRR)</strong> module that leverages Fast Fourier Transform (FFT) to decouple and reconstruct high and low frequency components independently. 
-            (3) The <strong>Dual Domain Joint Attention (DDJA)</strong> mechanism, which bridges representations across spatial and frequency domains to build a smooth bidirectional information flow.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section> -->
-<!-- End Model Architecture -->
-    
 <!-- Methods compare -->
 <section class="section hero is-light">
   <h2 class="title is-3 has-text-centered">Qualitative Comparison</h2>
@@ -476,8 +432,7 @@
           </div>
           <br>
           <p>
-            Quantitative comparison of x 2 and x 4 ultra-low light super-resolution tasks. Compared with SOTA algorithms such as normal illumination SR methods, cascade methods, and all-in-one methods, a comprehensive evaluation was conducted using five core evaluation indicators and model parameter quantities. Red and blue represent the optimal and suboptimal performance of the entire field, respectively.
-          </p>
+            Quantitative comparison of x2 and x4 ultra-dark and low resolution tasks. Compared with SOTA algorithms such as normal illumination SR methods, cascade methods, and all-in-one methods. All compared models are retrained on the RELLISUR training dataset. Red and blue represent the optimal and suboptimal performance, respectively.
         </div>
       </div>
     </div>
